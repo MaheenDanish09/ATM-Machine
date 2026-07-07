@@ -1,0 +1,35 @@
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+}
+
+body {
+    background-color: rgb(32, 30, 30);
+    font-family: "Elms Sans, sans-serif" !important;
+}
+
+.login-card {
+    min-height: 300px !important;
+    min-width: 400px !important;
+    background-color: rgba(255, 255, 255, 0.75) !important;
+    border: 4px dashed white !important;
+    box-shadow: rgba(247, 241, 241, 0.35) 0px 5px 15px !important;
+}
+
+.login-card button:hover {
+    cursor: pointer !important;
+    background: radial-gradient(circle, rgba(186, 192, 222, 1) 0%, rgba(48, 37, 40, 1) 100%) !important;
+}
+
+.atm-card {
+    min-height: 60% !important;
+    min-width: 80% !important;
+    background-color: rgb(2, 36, 122) !important;
+    color: whitesmoke !important;
+}
+
+.atm-card input::placeholder {
+    color: aliceblue !important;
+}
